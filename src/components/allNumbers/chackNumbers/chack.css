@@ -1,0 +1,75 @@
+.Chack {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chackControl {
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.chackControl>input {
+    border-color: #008568;
+    width: 64vh;
+    height: 8vh;
+    text-align: center;
+    margin-top: 1vh;
+    margin-right: 4vh;
+    font-size: 5.5vh;
+    border-radius: 2vh;
+}
+
+.chackControl>button {
+    border: none;
+    padding: 2vh;
+    font-size: 4vh;
+    background-color: #008568;
+    border-radius: 1.7vh;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.noChack {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.result, .noChack >span{
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50%;
+    border: 5px solid #008560;
+    box-sizing: border-box;
+    font-size: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Chack>img{
+    width: 53%;
+    height: 95%;
+}
+
+#continue{
+    border: none;
+    padding: 2vh;
+    font-size: 4vh;
+    background-color: #008568;
+    border-radius: 1.7vh;
+    color: whitesmoke;
+    cursor: pointer;
+    width: 31vh;
+}

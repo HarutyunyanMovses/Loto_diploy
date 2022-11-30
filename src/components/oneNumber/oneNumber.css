@@ -1,0 +1,43 @@
+.OneNumber {
+    width: 30%;
+    border-right: 5px dashed #0d101a ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.OneNumber>button {
+    border: none;
+    padding: 2vh;
+    font-size: 4vh;
+    background-color: #008568;
+    border-radius: 1.7vh;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.OneNumber>button:active {
+    color: #008568;
+    background-color: transparent;
+    border-radius: 1.7vh;
+    border: solid #008568;
+}
+
+.view-number {
+    width: 40vh;
+    height: 40vh;
+    border-radius: 50%;
+    border: 5px solid #008560;
+    box-sizing: border-box;
+    font-size: 17vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view-number > h1{
+    font-size: 8vh;
+    text-align: center;
+}
